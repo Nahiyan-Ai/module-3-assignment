@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css"
+    />
+    <title>Document</title>
+  </head>
+  <body onclick="mousePointer(event)" style="height: 100vh">
+    <p id="mousePara"></p>
+
+    <label for="key"
+      >Type something on the input field to alert the key code</label
+    >
+    <input type="text" name="key" onkeypress="keyCode(event)" />
+
+    <img
+      id="image"
+      onmouseover="over()"
+      onmouseout="out()"
+      src="./asset/img_forest.jpg"
+      alt=""
+      style="width: 300px; height: 200px"
+    />
+
+    <script src="./script.js"></script>
+  </body>
+</html>
